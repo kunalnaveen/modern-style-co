@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Rolex Skeleton Gold Automatic",
+    "price": 1699,
+    "originalPrice": 4999,
+    "image": "/products/rolex-skeleton-1.jpg",
+    "images": [
+      "/products/rolex-skeleton-1.jpg",
+      "/products/rolex-skeleton-2.jpg",
+      "/products/rolex-skeleton-3.jpg"
+    ],
+  "specs": [
+"Premium Build",
+"Automatic Movement",
+"Luxury Design",
+"Water Resistant"
+  ],
+  "category": "watches",
+    "badge": "Best Seller",
+    "stock": 4,
+    "description": "Luxury skeleton automatic timepiece featuring a gold-tone bezel and visible mechanical movement. Built for those who want elite style with everyday wear."
+  },
+  {
+    "id": "2",
+    "name": "Jacob & Co CR7 Edition Skeleton",
+    "price": 1599,
+    "originalPrice": 3499,
+    "image": "/products/jacob-cr7-1.jpg",
+    "images": [
+      "/products/jacob-cr7-1.jpg",
+      "/products/jacob-cr7-2.jpg",
+      "/products/jacob-cr7-3.jpg",
+      "/products/jacob-cr7-4.jpg"
+    ],
+    "specs": [
+  "Premium Build",
+  "Automatic Movement",
+  "Luxury Design",
+  "Water Resistant"
+],
+  "category": "watches",
+    "badge": "Trending",
+    "stock": 6,
+    "description": "Bold sporty luxury design with vibrant strap options and skeleton dial styling. Inspired by high-performance aesthetics with a premium finish."
+  },
+  {
+    "id": "3",
+    "name": "Cartier Chronograph Leather Edition",
+    "price": 1499,
+    "originalPrice": 3999,
+    "image": "/products/cartier-1.jpg",
+    "images": [
+      "/products/cartier-1.jpg",
+      "/products/cartier-2.jpg",
+      "/products/cartier-3.jpg",
+      "/products/cartier-4.jpg",
+      "/products/cartier-5.jpg",
+      "/products/cartier-6.jpg"
+    ],
+    "specs": [
+  "Premium Build",
+  "Automatic Movement",
+  "Luxury Design",
+  "Water Resistant"
+],
+    "category": "watches",
+    "badge": "Premium",
+    "stock": 5,
+    "description": "Elegant chronograph watch with leather strap and premium dial finish. Designed for a refined, classic look with functional timekeeping features and luxury appeal."
+  }
+]
