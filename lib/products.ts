@@ -17,20 +17,20 @@ export interface Product {
 
 export const products = productsData;
 
-export function getProductById(id: string): Product | undefined {
+export function getProductById(id: string): any {
   return products.find(p => p.id === id);
 }
 
-export function getProductsByCategory(category: string): Product[] {
+export function getProductsByCategory(category: string): any[] {
   if (category === 'all') return products;
   return products.filter(p => p.category === category);
 }
 
-export function getTrendingProducts(): Product[] {
-  return products.filter(p => p.trending);
+export function getTrendingProducts(): any[] {
+  return products.slice(0, 4);
 }
 
-export function getFeaturedProducts(): Product[] {
+export function getFeaturedProducts(): any[] {
   return products.slice(0, 4);
 }
 
