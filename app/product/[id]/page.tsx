@@ -325,7 +325,7 @@ export default function ProductPage() {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {related.map((p, i) => (
-                <ProductCard key={p.id} product={p} index={i} />
+                <ProductCard key={p.id} product={p as any} index={i} />
               ))}
             </div>
           </div>
