@@ -26,7 +26,7 @@ export default function ShopPage() {
   const [activeCategory, setActiveCategory] = useState(catParam);
   const [priceRange,     setPriceRange]      = useState(0);
   const [sortBy,         setSortBy]          = useState('featured');
-  const [filtered,       setFiltered]        = useState<Product[]>(products);
+  const [filtered,       setFiltered]        = useState<any[]>(products);
 
   useEffect(() => {
     setActiveCategory(catParam);
@@ -48,7 +48,7 @@ export default function ShopPage() {
     switch (sortBy) {
       case 'price_asc':  result.sort((a, b) => a.price - b.price); break;
       case 'price_desc': result.sort((a, b) => b.price - a.price); break;
-      case 'discount':   result.sort((a, b) => b.discount - a.discount); break;
+      case 'discount': break;
     }
 
     setFiltered(result);
