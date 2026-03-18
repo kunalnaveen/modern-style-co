@@ -15,7 +15,7 @@ export interface Product {
   specs: string[];
 }
 
-export const products: Product[] = productsData as Product[];
+export const products = productsData;
 
 export function getProductById(id: string): Product | undefined {
   return products.find(p => p.id === id);
