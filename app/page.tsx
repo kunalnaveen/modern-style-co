@@ -323,7 +323,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {featured.map((product, i) => (
-              <ProductCard key={product.id} product={product} index={i} />
+              <ProductCard key={product.id} product={product as any} index={i} />
             ))}
           </div>
         </div>
